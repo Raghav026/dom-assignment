@@ -1,0 +1,33 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipt {
+  width: 60%;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+  border-radius: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+li {
+  background-color: red;
+  margin: 0.5rem;
+}

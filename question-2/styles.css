@@ -1,0 +1,39 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  margin: 2rem;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 2%;
+  width: 80%;
+  margin: 1em;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  display: flex;
+  transform: translateY(-90px);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: indianred;
+  border-radius: 10px;
+  color: white;
+}
+.btn-container {
+  width: 30%;
+}
